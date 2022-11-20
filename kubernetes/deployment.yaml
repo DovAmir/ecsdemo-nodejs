@@ -6,7 +6,7 @@ metadata:
     app: ecsdemo-nodejs
   namespace: default
 spec:
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app: ecsdemo-nodejs
